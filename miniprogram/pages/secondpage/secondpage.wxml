@@ -11,3 +11,4 @@
 <button bindtap="handletap" data-operation="{{1}}">1</button>
 <button bindtap="handletap" data-operation="{{-1}}">-1</button>
 <view class="" hover-class="none" hover-stop-propagation="false">真的能看见吗</view>
+<view class="" hover-class="none" hover-stop-propagation="false">现在是第二哥</view>
