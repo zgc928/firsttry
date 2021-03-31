@@ -1,0 +1,12 @@
+<view class="container" wx:if="{{false}}">hhh</view>
+<view>
+    <checkbox checked></checkbox>
+</view>
+<view class="" hover-class="none" hover-stop-propagation="false" wx:for="{{person}}" wx:for-index="value" wx:for-item="key" wx:key="id" hidden="true">
+    属性：{{key}}
+    值:{{value}}
+</view>
+<input type="text" bindinput="oneinput"></input>
+<view class="" hover-class="none" hover-stop-propagation="false">{{num}}</view>
+<button bindtap="handletap" data-operation="{{1}}">1</button>
+<button bindtap="handletap" data-operation="{{-1}}">-1</button>
