@@ -1,14 +1,26 @@
-<view class="container" wx:if="{{false}}">hhh</view>
-<view>
-    <checkbox checked></checkbox>
+<view wx:if="{{isHide}}">
+    <view wx:if="{{canIUse}}" >
+        <view class='header'>
+            <image src='/images/wx_login.png'></image>
+        </view>
+ 
+        <view class='content'>
+            <view>申请获取以下权限</view>
+            <text>获得你的公开信息(昵称，头像等)</text>
+        </view>
+ 
+        <button class='bottom' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">
+            授权登录
+        </button>
+    </view>
+    <view wx:else>请升级微信版本</view>
 </view>
-<view class="" hover-class="none" hover-stop-propagation="false" wx:for="{{person}}" wx:for-index="value" wx:for-item="key" wx:key="id" hidden="true">
-    属性：{{key}}
-    值:{{value}}
+ 
+<view wx:else>
+    <image src='{{src}}'></image>
+    <text>{{nickname}}</text>
+    <view class="mypage_history">
+      <view bindtap="go_history">浏览信息</view>
+      <view bindtap="go_change">设置</view>
+    </view>
 </view>
-<input type="text" bindinput="oneinput"></input>
-<view class="" hover-class="none" hover-stop-propagation="false">{{num}}</view>
-<button bindtap="handletap" data-operation="{{1}}">1</button>
-<button bindtap="handletap" data-operation="{{-1}}">-1</button>
-<view class="" hover-class="none" hover-stop-propagation="false">真的能看见吗</view>
-<view class="" hover-class="none" hover-stop-propagation="false">现在是第二哥</view>
