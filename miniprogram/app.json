@@ -15,7 +15,8 @@
     "pages/im/room/room",
     "pages/testpage",
     "pages/firstpage/firstpage",
-    "pages/secondpage/secondpage"
+    "pages/secondpage/secondpage",
+    "pages/history/history"
   ],
   "window": {
     "backgroundColor": "#FFFF00",
