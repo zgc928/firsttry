@@ -6,7 +6,9 @@ Page({
         src: '',
         nickname: ''
     },
-
+    /*
+    这里是小程序个人登录界面的部分
+    */
     onLoad: function () {
         var that = this;
         // 查看是否授权
@@ -16,7 +18,7 @@ Page({
                     wx.getUserInfo({
                         success: function (res) {
                             that.setData({
-                                src: res.userInfo.avatarUrl
+                                src: res.userInfo.avatarUrl//获取登录者的头像信息
                             })
 
                             // 用户已经授权过,不需要显示授权页面,所以不需要改变 isHide 的值
