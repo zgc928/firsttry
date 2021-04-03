@@ -9,6 +9,7 @@ Page({
     /*
     这里是小程序个人登录界面的部分
     */
+
     onLoad: function () {
         var that = this;
         // 查看是否授权
