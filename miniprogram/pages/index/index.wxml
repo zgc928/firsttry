@@ -1,1 +1,3 @@
 <!-- 在这里添加一点注释 -->
+<input type="text" bindinput="do_input" placeholder="这里输入">在这里输入</input>
+<view class="" hover-class="none" hover-stop-propagation="false">{{thing}}</view>
