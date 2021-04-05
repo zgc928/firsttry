@@ -55,7 +55,8 @@ Page({
     },
 
     bindGetUserInfo: function (e) {
-        if (e.detail.userInfo) {
+        console.log(e)
+      /*  if (e.detail.userInfo) {
             //用户按了允许授权按钮
             var that = this;
             // 获取到用户的信息了，打印到控制台上看下
@@ -82,6 +83,7 @@ Page({
                 }
             });
         }
+        */
     },
 
 

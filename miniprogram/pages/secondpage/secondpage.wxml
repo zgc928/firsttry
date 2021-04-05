@@ -20,4 +20,5 @@
         浏览历史
     </navigator>
 </view>
+<!-- 这里是自定义组件 -->
 <Tabs></Tabs>
