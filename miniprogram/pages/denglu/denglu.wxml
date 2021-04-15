@@ -1,19 +1,12 @@
 <view class="container">
   <view class="userinfo">
-      <!-- 获取 -->
     <block wx:if="{{!hasUserInfo}}">
       <button wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 获取头像昵称 </button>
       <button wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     </block>
-<!-- 展示 -->
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-      <text class="userinfo-nickname">{{userInfo.gender}}</text>
-      <text class="userinfo-nickname">{{userInfo.city}}</text>
-      <text class="userinfo-nickname">{{userInfo.language}}</text>
-      <text class="userinfo-nickname">{{userInfo.provience}}</text>
     </block>
   </view>
 </view>
-<view bindtap="gotohistory" data-id="{{openid}}">浏览历史</view>

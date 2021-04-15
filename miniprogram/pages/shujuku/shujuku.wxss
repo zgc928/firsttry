@@ -1,0 +1,8 @@
+/* pages/shujuku/shujuku.wxss */
+input{
+  border: 1px solid gray;
+}
+.img{
+width: 300rpx;
+height: 180rpx;
+}

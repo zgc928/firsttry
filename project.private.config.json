@@ -1,0 +1,42 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "商品详情页",
+          "pathName": "pages/shangpin/shangpin",
+          "query": "id=79550af2606d9bf90da676b44a0bb73d",
+          "scene": null
+        },
+        {
+          "name": "商品列表页",
+          "pathName": "pages/shujuku/shujuku",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "登录页面",
+          "pathName": "pages/secondpage/secondpage",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

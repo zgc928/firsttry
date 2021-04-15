@@ -1,5 +1,10 @@
 {
   "pages": [
+    "pages/denglu/denglu",
+    "pages/yuncunchu/yuncunchu",
+    "pages/command/command",
+    "pages/shujuku/shujuku",
+    "pages/shangpin/shangpin",
     "pages/index/index",
     "pages/secondpage/secondpage",
     "pages/userConsole/userConsole",

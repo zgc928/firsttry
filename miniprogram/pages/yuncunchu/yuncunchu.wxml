@@ -1,0 +1,1 @@
+<button bindtap="getphoto">获取图片上传</button>  

@@ -1,2 +1,16 @@
-<view class="container"></view>
-<view>年后</view>
+<view wx:for="{{list}}">
+  <view  wx:if="{{id==item._openid}}">
+    <view class="" hover-class="none" hover-stop-propagation="false" bindtap="godetail" data-id="{{item._id}}" >
+        商品名：{{item.name}},价格:{{item.price}}
+        <image src="{{item.img}}" class="img">
+        
+        </image>
+    </view>
+  </view>
+</view>
+<view>
+    <input bindinput="getname" placeholder="请输入商品名"></input>
+    <input bindinput="getprice" placeholder="请输入商品价格"></input>
+    <button bindtap="addgood">添加商品</button>
+</view>
+<button bindtap="getup">按照商品价格排序</button>

@@ -1,0 +1,5 @@
+<view>商品名:{{goods.name}},价格:{{goods.price}}</view>
+<image src="{{goods.img}}"></image>
+<input bindinput="getnewprice" placeholder-class="输入新价格"></input>
+<button bindtap="putnewprice">提交新价格</button>
+<button bindtap="getdelect">删除该商品</button>
